@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-21T15:01:00 IST" name="Default suite" finished-at="2023-03-21T15:01:08 IST" duration-ms="8354">
+    <groups>
+    </groups>
+    <test started-at="2023-03-21T15:01:00 IST" name="Default test" finished-at="2023-03-21T15:01:08 IST" duration-ms="8354">
+      <class name="api.test.UserEndPoint_propertiesFile_Test">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.UserEndPoint_propertiesFile_Test@6404f418]" started-at="2023-03-21T15:01:00 IST" name="setupData" finished-at="2023-03-21T15:01:00 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testPostUser()[pri:1, instance:api.test.UserEndPoint_propertiesFile_Test@6404f418]" started-at="2023-03-21T15:01:00 IST" name="testPostUser" finished-at="2023-03-21T15:01:04 IST" duration-ms="3303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testGetUserByName()[pri:2, instance:api.test.UserEndPoint_propertiesFile_Test@6404f418]" started-at="2023-03-21T15:01:04 IST" name="testGetUserByName" finished-at="2023-03-21T15:01:05 IST" duration-ms="1193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method signature="testUpdateUserByName()[pri:3, instance:api.test.UserEndPoint_propertiesFile_Test@6404f418]" started-at="2023-03-21T15:01:05 IST" name="testUpdateUserByName" finished-at="2023-03-21T15:01:07 IST" duration-ms="2430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserByName -->
+        <test-method signature="testDeleteUserByName()[pri:4, instance:api.test.UserEndPoint_propertiesFile_Test@6404f418]" started-at="2023-03-21T15:01:07 IST" name="testDeleteUserByName" finished-at="2023-03-21T15:01:08 IST" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+      </class> <!-- api.test.UserEndPoint_propertiesFile_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

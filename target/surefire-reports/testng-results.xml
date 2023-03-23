@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="17146" started-at="2023-03-23T14:25:50 IST" finished-at="2023-03-23T14:26:07 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="17146" started-at="2023-03-23T14:25:50 IST" finished-at="2023-03-23T14:26:07 IST">
+      <class name="api.test.UserEndPoint_propertiesFile_Test">
+        <test-method status="PASS" signature="setupData()[pri:0, instance:api.test.UserEndPoint_propertiesFile_Test@6043cd28]" name="setupData" is-config="true" duration-ms="266" started-at="2023-03-23T14:25:50 IST" finished-at="2023-03-23T14:25:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method status="PASS" signature="testPostUser()[pri:1, instance:api.test.UserEndPoint_propertiesFile_Test@6043cd28]" name="testPostUser" duration-ms="4568" started-at="2023-03-23T14:25:50 IST" finished-at="2023-03-23T14:25:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method status="PASS" signature="testGetUserByName()[pri:2, instance:api.test.UserEndPoint_propertiesFile_Test@6043cd28]" name="testGetUserByName" duration-ms="1225" started-at="2023-03-23T14:25:55 IST" finished-at="2023-03-23T14:25:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method status="PASS" signature="testUpdateUserByName()[pri:3, instance:api.test.UserEndPoint_propertiesFile_Test@6043cd28]" name="testUpdateUserByName" duration-ms="2831" started-at="2023-03-23T14:25:56 IST" finished-at="2023-03-23T14:25:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserByName -->
+        <test-method status="PASS" signature="testDeleteUserByName()[pri:4, instance:api.test.UserEndPoint_propertiesFile_Test@6043cd28]" name="testDeleteUserByName" duration-ms="1464" started-at="2023-03-23T14:25:59 IST" finished-at="2023-03-23T14:26:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+      </class> <!-- api.test.UserEndPoint_propertiesFile_Test -->
+      <class name="api.test.UserTest">
+        <test-method status="PASS" signature="setupData()[pri:0, instance:api.test.UserTest@cb51256]" name="setupData" is-config="true" duration-ms="62" started-at="2023-03-23T14:26:00 IST" finished-at="2023-03-23T14:26:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method status="PASS" signature="testPostUser()[pri:1, instance:api.test.UserTest@cb51256]" name="testPostUser" duration-ms="1530" started-at="2023-03-23T14:26:00 IST" finished-at="2023-03-23T14:26:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method status="PASS" signature="testGetUserByName()[pri:2, instance:api.test.UserTest@cb51256]" name="testGetUserByName" duration-ms="1171" started-at="2023-03-23T14:26:02 IST" finished-at="2023-03-23T14:26:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method status="PASS" signature="testUpdateUserByName()[pri:3, instance:api.test.UserTest@cb51256]" name="testUpdateUserByName" duration-ms="2691" started-at="2023-03-23T14:26:03 IST" finished-at="2023-03-23T14:26:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserByName -->
+        <test-method status="PASS" signature="testDeleteUserByName()[pri:4, instance:api.test.UserTest@cb51256]" name="testDeleteUserByName" duration-ms="1299" started-at="2023-03-23T14:26:06 IST" finished-at="2023-03-23T14:26:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+      </class> <!-- api.test.UserTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
